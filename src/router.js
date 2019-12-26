@@ -10,7 +10,7 @@ export default Router.extend({
     repos: "repos"
   },
 
-  public() {
+  home() {
     ReactDOM.render(<HomePage />, document.querySelector("#app"));
   },
   repos() {

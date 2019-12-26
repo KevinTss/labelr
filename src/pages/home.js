@@ -2,7 +2,12 @@ import React, { Component } from "react";
 
 class HomePage extends Component {
   render() {
-    return <div>HomePage</div>;
+    return (
+      <div>
+        <h1>Home</h1>
+        <a href="/repos">repos</a>
+      </div>
+    );
   }
 }
 
