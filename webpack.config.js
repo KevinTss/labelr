@@ -28,6 +28,13 @@ module.exports = {
             attrs: [":data-src"]
           }
         }
+      },
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        }
       }
     ]
   },
