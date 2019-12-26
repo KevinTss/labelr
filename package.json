@@ -18,6 +18,7 @@
   "dependencies": {
     "ampersand-app": "^2.0.0",
     "ampersand-router": "^5.0.0",
+    "local-links": "^1.4.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "surge": "^0.21.3"
