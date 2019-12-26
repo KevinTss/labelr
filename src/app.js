@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import "./style/index.css";
+import "./style/index.styl";
 
 class Hello extends Component {
   render() {
