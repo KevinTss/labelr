@@ -1,11 +1,10 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import Router from "./router";
 import "./style/index.styl";
 
-class Hello extends Component {
-  render() {
-    return <div>Hello guys</div>;
+window.app = {
+  init() {
+    (this.router = new Router()), this.router.history.start();
   }
-}
+};
 
-ReactDOM.render(<Hello />, document.querySelector("#app"));
+window.app.init();
