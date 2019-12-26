@@ -3,3 +3,7 @@ For example webpack 4 instead 1
 It's possible that this branch wouldn't work well
 
 Tutoriel here: http://learn.humanjavascript.com/react-ampersand/introduction
+
+## Deploy - Surge
+
+Deplay using `npm run deploy`
