@@ -6,7 +6,7 @@ class HomePage extends Component {
     return (
       <NavInternalHelper onClick={this.onClickHandler}>
         <h1>Home</h1>
-        <a href="/repos">repos</a>
+        <a href="/login">Login with Github</a>
       </NavInternalHelper>
     );
   }
