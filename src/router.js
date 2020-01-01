@@ -20,6 +20,7 @@ export default Router.extend({
     "": "home",
     repos: "repos",
     login: "login",
+    logout: "logout",
     "auth/callback?:query": "authCallBack"
   },
 
