@@ -49,22 +49,20 @@ export default Router.extend({
       delete window.localStorage.state;
       xhr(
         {
-          url: `https://herokuapp-name.com./authenticate/${query.code}`,
+          url: `http://localhost:9999/authenticate/${query.code}`, // url: `https://labelr-backend-kev.herokuapp.com/authenticate/${query.code}`,
           json: true
         },
         (error, response, body) => {
-          console.log("error", error);
-          console.log("response", response);
-          console.log("body", body); // body.token
           if (error) {
             console.log("something went wrong");
           } else {
             app.me.token = body.token;
+            this.redirectTo("/repos");
           }
         }
       );
     } else {
-      console.log("nonoe");
+      console.log("state value is not correct");
     }
   }
 });

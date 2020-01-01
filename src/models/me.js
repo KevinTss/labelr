@@ -18,6 +18,5 @@ export default Model.extend({
 
   onChangeToken() {
     window.localStorage.token = this.token;
-    this.redirectTo("/repos");
   }
 });
