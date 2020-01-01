@@ -17,11 +17,15 @@
   "license": "MIT",
   "dependencies": {
     "ampersand-app": "^2.0.0",
+    "ampersand-model": "^8.0.1",
     "ampersand-router": "^5.0.0",
     "local-links": "^1.4.1",
+    "qs": "^6.9.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "surge": "^0.21.3"
+    "surge": "^0.21.3",
+    "uuid": "^3.3.3",
+    "xhr": "^2.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
